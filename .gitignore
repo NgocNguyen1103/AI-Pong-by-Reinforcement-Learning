@@ -1,0 +1,7 @@
+runs
+models
+*.pyc
+/venv/
+/.vscode/
+/_pycache_/
+
