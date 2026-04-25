@@ -60,10 +60,10 @@ class Model(nn.Module):
                 nn.init.constant_(m.bias, 0)
 
 
-    def save_the_model(self, filename='models/latest.pt'):
+    def save_the_model(self, filename='models/latest_touchreward.pt'):
         torch.save(self.state_dict(), filename)
     
-    def load_the_model(self, filename='models/latest.pt'):
+    def load_the_model(self, filename='models/latest_touchreward.pt'):
         try:
             self.load_state_dict(torch.load(filename))
             print(f"Loaded weights from {filename}")

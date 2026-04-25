@@ -53,7 +53,7 @@ min_epsilon = 0.1
 epsilon_decay = 0.995
 
 resume = True
-checkpoint_path = 'models/checkpoint.pth'
+checkpoint_path = 'models/checkpoint_5.pth'
 checkpoint_interval = 10
 
 env = gym.make("ALE/Pong-v5", render_mode="rgb_array")
